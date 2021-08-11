@@ -1,0 +1,14 @@
+<div class="card-trip">
+  <%= image_tag "http://source.unsplash.com/featured/?#{flat.name}&#{rand(10)}"%>
+  <div class="card-trip-infos">
+    <div>
+      <h2><%= flat.name %></h2>
+      <p><%= flat.description %></p>
+
+
+    </div>
+    <p class="card-trip-pricing">👩🏻‍🤝‍🧑🏼<%= flat.number_of_guests %></p>
+    <p class="card-trip-pricing">💲<%= flat.price_per_night %></p>
+
+  </div>
+</div>
